@@ -6,6 +6,9 @@ import os
 #print(dir(os))
             
                 
+def get_cwd():
+    print('Current working directory:')    
+    print(os.getcwd)
 
 
 os.getcwd()
@@ -16,6 +19,9 @@ os.mkdir
 
 #TO make several dirs, exmple:
 os.makedirs('Folder/File')
+
+# Remove directories
+os.removedirs('Folder/File')
 
 
 
